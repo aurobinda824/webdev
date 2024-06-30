@@ -1,0 +1,167 @@
+html
+{
+  scroll-behavior: smooth;
+}
+
+header
+{
+  height: 10%;
+  width: 100%;
+  background: blue;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+header .nav
+{
+  position: absolute;
+  height: 100%;
+  width: fit-content;
+  margin-left: 25%;
+}
+
+header .nav ul li
+{
+  list-style-type: none;
+  display: inline-block;
+}
+
+header .nav ul li a
+{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: black;
+  padding: 40px;
+  transition: 0.2s ease-in-out;
+}
+
+header .nav ul li a:hover
+{
+  color: brown;
+  font-size: 30px;
+}
+
+#home .row
+{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+#home .row .col1
+{
+  display: block;
+  flex: 50%;
+}
+
+#home .row .col2
+{
+  flex: 50%;
+}
+
+#home .row .col1 .logo
+{
+  margin-top: 20%;
+  margin-left: 50%;
+}
+
+#home .row .col1 .logo img
+{
+  border-radius: 5%;
+  border: 5px solid black;
+  height: 25%;
+  width: 25%;
+}
+
+#home .row .col1 .text p
+{
+  margin-left: 35%;
+  font-size: 50px;
+}
+
+#home .row .col1 p
+{
+  margin-left: 20%;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#home .row .col2 .text p
+{
+  margin-top: 20%;
+  margin-left: 30%;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+#home .row .col2 ul
+{
+  margin-left: 15%;
+}
+
+#home .row .col2 ul li
+{
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+#add .text
+{
+  padding-left: 30%;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#add .expense input[type=text], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#add .expense button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#add .expense button:hover {
+  background-color: #45a049;
+}
+
+#add .expense {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.exp-text
+{
+  font-size: 50px;
+  padding-left: 40%;
+}
+
+#list table
+{
+  border-collapse: collapse;
+  width: 100%;
+  padding-left: 40%;
+  margin-bottom: 20%;
+}
+
+#list table td, th
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
