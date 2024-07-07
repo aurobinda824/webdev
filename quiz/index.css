@@ -1,0 +1,116 @@
+.app
+{
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+
+.app .header
+{
+    display: flex;
+    margin-top: 1%;
+    height: 5%;
+    width: 100%;
+}
+
+.app .header .score, .stat
+{
+    margin-left: 10%;
+}
+
+.app p
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.app .header button
+{
+    height: 5%;
+    width: fit-content;
+    border: none;
+    padding: 2%;
+    margin-left: 50%;
+    background-color: rgb(44, 175, 44);
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.app .body
+{
+    border: 1px solid black;
+}
+
+.app .body .ques
+{
+    width: 100%;
+    display: flex;
+}
+
+.app .body .ques .index
+{
+    margin-left: 5%;
+}
+
+.app .body .ques .q
+{
+    margin-left: 5%;
+}
+
+.app .body .opts button
+{
+    width: 90%;
+    font-size: 30px;
+    font-weight: 600;
+    border: 1px solid black;
+    margin: 1%;
+    padding: 1%;
+}
+
+.app .body .opts button:focus
+{
+    background-color: yellowgreen;
+}
+
+.app .body .opts button:disabled
+{
+    opacity: 1;
+    color: inherit;
+}
+
+.footer
+{
+    margin-top: 1%;
+}
+
+.footer .check
+{
+    margin-left:40%;
+}
+
+.footer .next
+{
+    margin-left: 10%;
+}
+
+.footer .check, .next
+{
+    background-color: greenyellow;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.blue-button
+{
+    background-color: rgb(134, 234, 234);
+}
+
+.green-button
+{
+    background-color: greenyellow;
+}
+
+.red-button
+{
+    background-color: red;
+}
